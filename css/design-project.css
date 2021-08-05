@@ -1,8 +1,51 @@
 p{
     /*this font is Abel */
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Abel', sans-serif;
 }
 h1, h2,h3,h4,h5,h6{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Anton', sans-serif;
 /*    this font is Anton */
 }
+
+
+/*NAVBAR CSS*/
+nav a {
+    font-size: .75em;
+    color: black;
+}
+
+.nav-background {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    height: 59px;
+    width: 100%;
+    top: 37px;
+    z-index: -1000;
+}
+
+nav .nav-item {
+    position: relative;
+    bottom: 6px;
+}
+
+/*DOT CSS*/
+.dot {
+    height: 7rem;
+    width: 7rem;
+    background-color: gray;
+    border: .5rem solid white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dot p {
+    font-family: Anton;
+    color: white;
+    font-size: 1.2rem;
+    margin-top: .9rem;
+    margin-left: .2rem;
+}
+
