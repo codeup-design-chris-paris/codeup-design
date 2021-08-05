@@ -31,14 +31,18 @@ nav .nav-item {
 
 /*DOT CSS*/
 .dot {
-    height: 7rem;
-    width: 7rem;
+    height: 100px;
+    width: 100px!important;
     background-color: gray;
-    border: .5rem solid white;
+    border: .4rem solid white;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
+
+}
+.dotbox{
+    padding: 0!important;
 }
 
 .dot p {
