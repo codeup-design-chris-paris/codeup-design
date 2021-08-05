@@ -53,3 +53,36 @@ nav .nav-item {
     margin-left: .2rem;
 }
 
+img {
+    border: 12px solid lightgrey;
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+}
+
+.small-dot {
+    height: 30px;
+    width: 30px;
+    /*padding-top: 100%;*/
+    border-radius: 50%;
+}
+
+.small-dot p{
+    font-family: Anton;
+}
+
+.red-circle {
+    background-color: #E6563B;
+}
+
+.orange-circle {
+    background-color: #EB9D3A;
+}
+
+.green-circle {
+    background-color: #7CB06C;
+}
+
+.blue-circle {
+    background-color: #00ABA9;
+}
