@@ -99,3 +99,13 @@ nav .nav-item {
 .blue-circle {
     background-color: #00ABA9;
 }
+
+@media screen and (min-width: 768px) {
+    .hidden {
+        display: block;
+    }
+}
+
+hr {
+    display: none;
+}
