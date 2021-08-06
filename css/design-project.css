@@ -63,7 +63,7 @@ nav .nav-item {
 }
 
 .featured-sub-heading{
-    font-size: 28px;
+    font-size: 1.5rem;
 }
 
 .selected-work-img {
@@ -108,4 +108,13 @@ nav .nav-item {
 
 hr {
     display: none;
+}
+
+#security-image {
+    height: 19.75rem;
+}
+
+.icon-img {
+    width: 3rem;
+    height: 3rem;
 }
