@@ -39,10 +39,10 @@ nav .nav-item {
 
 /*DOT CSS*/
 .dot {
-    height: 225px;
-    width: 225px;
+    height: 210px;
+    width: 210px;
     background-color: gray;
-    border: 1rem solid white;
+    border: .8rem solid white;
     border-radius: 50%;
     display: flex;
     justify-content: center;
