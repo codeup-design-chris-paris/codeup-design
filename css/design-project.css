@@ -7,6 +7,9 @@ h1, h2,h3,h4,h5,h6{
 /*    this font is Anton */
 }
 
+/*h1{*/
+/*    font-size: xxx-large;*/
+/*}*/
 
 /*NAVBAR CSS*/
 nav a {
@@ -31,14 +34,15 @@ nav .nav-item {
 
 /*DOT CSS*/
 .dot {
-    height: 100px;
-    width: 100px!important;
+    height: 175px;
+    width: 175px;
     background-color: gray;
     border: .4rem solid white;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: .5rem;
 
 }
 .dotbox{
@@ -53,7 +57,16 @@ nav .nav-item {
     margin-left: .2rem;
 }
 
-img {
+.selected-work{
+    font-size: 28px;
+    /*padding: 3rem;*/
+}
+
+.featured-sub-heading{
+    font-size: 28px;
+}
+
+.selected-work-img {
     border: 12px solid lightgrey;
     border-radius: 10px;
     width: 100%;
@@ -61,8 +74,8 @@ img {
 }
 
 .small-dot {
-    height: 30px;
-    width: 30px;
+    height: 36px;
+    width: 36px;
     /*padding-top: 100%;*/
     border-radius: 50%;
 }
